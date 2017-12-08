@@ -3,5 +3,5 @@ project(Program2)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES main.c random.c random.h)
 add_executable(Program2 ${SOURCE_FILES})
